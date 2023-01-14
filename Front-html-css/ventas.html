@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Esta descripción es la que aparece en los buscadores debajo de la URL" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="ventas.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,800&display=swap" rel="stylesheet">
+	<title>Registro</title>
+</head>
+
+<body>
+	<header>
+		<div class="head">
+			<nav class="navbar">
+				<a href="index.html">Inicio</a>
+			</nav>
+		</div>
+		<div class="options">	
+		</div>
+	</header>
+	<main>
+		<h1>GESTION DE VENTAS</h1>
+		<form>
+			<div class='field'>
+				<label>ID_Vendedor</label>
+				<input name='id' type='text' required value="Id vendedor" placeholder='ID_Vendedor' autocomplete />
+			</div>
+			<div class='field'>
+				<label>Nombre</label>
+				<input name='id' type='text'  placeholder='Nombre' autocomplete />
+			</div>
+			<div class='field'>
+				<label>ID_Cliente</label>
+				<input name='id' type='text' required value="Id cliente" placeholder='ID_Cliente' autocomplete />
+			</div>
+			<div class='field'>
+				<label>Nombre</label>
+				<input name='id' type='text'  placeholder='Nombre' autocomplete />
+			</div>
+			<div class='field'>
+				<label>Producto</label>
+				<select name='producto' required>
+					<option selected disabled>Sel. una opción</option>
+					<option>Empanadas</option>
+					<option>Embutidos</option>
+					<option>Arepas</option>
+				</select>
+			</div>
+			<div class='field'>
+				<label>Cantidad</label>
+				<input name='Cantidad' type='number' autocomplete />
+			</div>
+			<div class='factu'>
+				<label>FACTURACION</label>
+				<table> 
+					<tr>
+						<th>CODIGO</th>
+						<th>NOMBRE</th>
+						<th>TOTAL</th>
+					</tr>
+					<tr>
+						<td>&nbsp</td>
+						<td>&nbsp </td>
+					</tr>
+					<tr>
+						<td>&nbsp </td>
+						<td>&nbsp </td>
+					</tr>
+					<tr>
+						<td>&nbsp </td>
+						<td>&nbsp </td>
+					</tr>
+				</table>
+			</div>
+			
+
+			<div class='submit'>
+				<button >
+					AGREGAR
+				</button>
+                <button >
+					FINALIZAR
+				</button>
+			</div>
+		</form>
+	</main>
+</body>
+
+</html>
