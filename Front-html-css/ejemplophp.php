@@ -13,8 +13,8 @@ if($conexion){
 ?>
         <tr >
             <td style="width: 250px"><?= $codigo ?></td>
-            <td style="width: 290px"><?= $nombreProducto ?></td>
-            <td style="width: 241.5px"><?= $total ?></td>
+            <td style="width: 250px"><?= $nombreProducto ?></td>
+            <td style="width: 250px"><?= $total ?></td>
         </tr>
 <?php
        }

@@ -64,9 +64,10 @@ form{
 .x{
 	display: flex;
 	flex-direction: column;
-	width: 60%;
+	width: 752px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 
@@ -105,9 +106,12 @@ form{
 table,th,td{
 	border: 1px solid black;
 	border-collapse: collapse;
+
 }
 th,td{
 	padding: 10px;
+	width: 249.5px;
+	
 }
 th{
 	background-color:#101010;
@@ -179,5 +183,4 @@ tr:hover td{
 .submit button:hover{
 	color: orangered;
 }
-
 
