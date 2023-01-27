@@ -16,10 +16,9 @@ h1{
 
 form{
 	display: grid;
-	grid-template-columns: 300px 300px;
-	justify-content: space-between;
-
-	width: 100%;
+	grid-template-columns: 250px 250px ;
+	justify-content: space-around;
+	width: 50%;
 	max-width: 800px;
 	margin-top: 2.8rem;
 	margin-right: auto;
@@ -29,9 +28,9 @@ form{
 .field{
 	display: flex;
 	flex-direction: column;
-
-	width: 14rem;
+	width: 250px;
 	margin: 0.5rem 0;
+
 }
 
 .field label{
@@ -54,10 +53,9 @@ form{
 
 .field select{
 	font-size: 1.1rem;
-	width: 12rem;
+	width: 250px;
 	height: 2.6rem;
 	padding-left: 0.5rem;
-
 	border: 2px solid #696969;
 	border-radius: 5px;
 }
@@ -162,7 +160,7 @@ tr:hover td{
 
 .submit{
 	display: flex;
-	justify-content: space-between;
+	justify-content:center;
 	width: 100%;
 	margin-top: 1.75rem;
 }
